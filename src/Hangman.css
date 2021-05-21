@@ -1,0 +1,92 @@
+.Hangman {
+  width: 400px;
+  color: black;
+  text-align: center;
+  zoom: 1;
+}
+
+.Hangman img {
+  border: 10px solid rgba(27, 27, 27, 0.226);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.87),
+    0 0 40px rgba(0, 0, 0, 0.096) inset;
+}
+
+.Hangman h1 {
+  color: white;
+  font-size: 4rem;
+  font-weight: 500;
+  margin-bottom: 0.1em;
+  margin-top: 0;
+}
+
+.Hangman-word {
+  color: white;
+  font-weight: 700;
+  letter-spacing: 1em;
+  margin: 0.4em -1em 0.2em 0;
+  font-size: 2.8rem;
+}
+
+.Hangman-btns {
+  text-align: center;
+  display: inline-block;
+  width: 250px;
+  margin-top: 0;
+}
+
+.Hangman button {
+  border: none;
+  font-family: inherit;
+  font-size: 1.5rem;
+  cursor: pointer;
+  width: 31px;
+  margin: 5px 2px 2px 2px;
+  letter-spacing: 1px;
+  outline: none;
+  background: #ff5202;
+  color: white;
+  box-shadow: 0 6px #ff5202;
+  border-radius: 5px;
+  padding-top: 4px;
+  font-weight: 600;
+}
+
+.Hangman button:hover {
+  background-color: #ff6b15ec;
+}
+
+.Hangman button:disabled {
+  background: #8f8f8f;
+  color: #eeeeee;
+  box-shadow: 0 6px #9e9e9e;
+}
+
+#btn-reset {
+  font-size: 1rem;
+  font-weight: 700;
+  width: 105px;
+  margin: 26px;
+}
+
+#h1-winner {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 4rem;
+}
+
+#h1-loser {
+  font-size: 3.4rem;
+  font-weight: 700;
+  margin-bottom: 4rem;
+}
+
+#h2-nWrong{
+  font-size: 1.9rem;
+  color: white;
+  font-weight: 700;
+}
+
+#span-answer {
+  color: rgb(255, 255, 255);
+  font-size: 3.8rem;
+}

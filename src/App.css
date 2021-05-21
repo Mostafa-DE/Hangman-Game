@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+  height: 120vh;
+  display: flex;
+  zoom: 0.85;
+  align-items: center;
+  justify-content: center;
+  background: url("https://images.unsplash.com/photo-1584869942712-4584555b58a7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1105&q=80");
+  background-position: center center;
+  background-size: cover;
+}
